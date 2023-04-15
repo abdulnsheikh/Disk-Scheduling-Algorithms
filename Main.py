@@ -8,9 +8,9 @@ import sys
 from typing import List
 from enum import Enum 
 
-from diskScheudlingAlgorithms.Cscan import Cscan
-from diskScheudlingAlgorithms.Fifo import Fifo
-from diskScheudlingAlgorithms.Sstf import Sstf
+from diskSchedulingAlgorithms.Cscan import Cscan
+from diskSchedulingAlgorithms.Fifo import Fifo
+from diskSchedulingAlgorithms.Sstf import Sstf
 from virtualMachine.Manager import Manager
 from virtualMachine.TheDisk import TheDisk
 from unitTesting.runTest import Test

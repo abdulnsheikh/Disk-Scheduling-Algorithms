@@ -6,7 +6,7 @@
 
 from typing import List 
 from collections import deque
-from diskScheudlingAlgorithms.Algo import abstractAlgorithm as Algorithm
+from diskSchedulingAlgorithms.Algo import abstractAlgorithm as Algorithm
 from virtualMachine.DiskRequest import DiskRequest
 from virtualMachine.TheDisk import TheDisk
 

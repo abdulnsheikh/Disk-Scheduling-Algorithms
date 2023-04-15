@@ -1,10 +1,10 @@
 import os
 import sys
-from diskScheudlingAlgorithms.Algo import abstractAlgorithm as Algorithm
+from diskSchedulingAlgorithms.Algo import abstractAlgorithm as Algorithm
 
-from diskScheudlingAlgorithms.Cscan import Cscan
-from diskScheudlingAlgorithms.Fifo import Fifo
-from diskScheudlingAlgorithms.Sstf import Sstf 
+from diskSchedulingAlgorithms.Cscan import Cscan
+from diskSchedulingAlgorithms.Fifo import Fifo
+from diskSchedulingAlgorithms.Sstf import Sstf 
 from typing import List
 from virtualMachine.Manager import Manager
 

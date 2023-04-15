@@ -4,7 +4,7 @@
 #             College of Information Science and Technology
 # Course: Operating Systems
  
-from diskScheudlingAlgorithms.Algo import abstractAlgorithm as Algorithm
+from diskSchedulingAlgorithms.Algo import abstractAlgorithm as Algorithm
 import collections
 
 

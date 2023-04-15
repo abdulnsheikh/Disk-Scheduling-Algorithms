@@ -5,7 +5,7 @@
 # Course: Operating Systems
 
 from typing import List 
-from diskScheudlingAlgorithms.Algo import abstractAlgorithm as Algorithm
+from diskSchedulingAlgorithms.Algo import abstractAlgorithm as Algorithm
 from virtualMachine.DiskRequest import DiskRequest
 
 class Fifo(Algorithm):
