@@ -1,5 +1,6 @@
-
-![Logo](https://raw.githubusercontent.com/abdulnsheikh/Disk-Scheduling-Algorithms/main/images/image.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/abdulnsheikh/Disk-Scheduling-Algorithms/main/images/image.png" alt="Logo">
+</p>
 
 ## Operating System Disk Scheduling Simulation
 This is a Python program that simulates disk scheduling algorithms used by operating systems to manage and schedule disk input/output (I/O) requests. The simulation reads a list of disk access requests from a file and then runs the selected algorithm to schedule the requests in a queue. The program outputs the total queue time.
