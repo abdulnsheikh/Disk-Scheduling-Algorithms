@@ -36,9 +36,9 @@ class Test:
     def run_fifo_test(self) -> None:
         requests = self.get_requests_from_file(self)
         algorithm = Fifo() 
-
+ 
         print("FIFO Test****")
-        expected_output = [158,198,248,288,323] 
+        expected_output = [574,1093,1542,1925,2245] 
 
         counter = 0
         for index in range(10, 60, 10):
@@ -46,7 +46,7 @@ class Test:
             print("{} {}".format(time, expected_output[counter]))
 
             # the test
-            assert time != expected_output[counter]
+            assert time == expected_output[counter]
             counter += 1
         print("passed! ")
 
@@ -55,7 +55,7 @@ class Test:
         algorithm = Sstf()
 
         print("SSTF Test****")
-        expected_output = [574,1093,1542,1925,2245]
+        expected_output = [158,198,248,288,323]
 
         counter = 0
         for index in range(10, 60, 10):
@@ -63,7 +63,7 @@ class Test:
             print("{} {}".format(time, expected_output[counter]))
 
             # the test
-            assert time != expected_output[counter]
+            assert time == expected_output[counter]
             counter += 1
         print("passed! ")
 
